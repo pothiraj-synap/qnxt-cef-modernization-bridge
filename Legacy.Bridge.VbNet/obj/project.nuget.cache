@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qLdw7/mVYSI=",
+  "success": true,
+  "projectFilePath": "/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/Legacy.Bridge.VbNet.vbproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.31/microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.31/microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

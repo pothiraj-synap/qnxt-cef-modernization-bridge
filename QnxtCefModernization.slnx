@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Legacy.Bridge.VbNet/Legacy.Bridge.VbNet.vbproj" />
+  <Project Path="Modern.Core.Csharp.Api/Modern.Core.Csharp.Api.csproj" />
+</Solution>

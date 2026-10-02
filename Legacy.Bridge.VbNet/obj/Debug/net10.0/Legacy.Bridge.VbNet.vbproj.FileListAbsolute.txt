@@ -1,0 +1,12 @@
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/bin/Debug/net10.0/Legacy.Bridge.VbNet.deps.json
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/bin/Debug/net10.0/Legacy.Bridge.VbNet.dll
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/bin/Debug/net10.0/Legacy.Bridge.VbNet.pdb
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/Legacy.Bridge.VbNet.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/Legacy.Bridge.VbNet.AssemblyInfoInputs.cache
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/Legacy.Bridge.VbNet.AssemblyInfo.vb
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/Legacy.Bridge.VbNet.vbproj.CoreCompileInputs.cache
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/Legacy.Bridge.VbNet.sourcelink.json
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/Legacy.Bridge.VbNet.dll
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/refint/Legacy.Bridge.VbNet.dll
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/Legacy.Bridge.VbNet.pdb
+/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/Debug/net10.0/ref/Legacy.Bridge.VbNet.dll
