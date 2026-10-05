@@ -12,4 +12,8 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/home/codespace/.nuget/packages/" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)hotchocolate.data/13.9.0/build/HotChocolate.Data.props" Condition="Exists('$(NuGetPackageRoot)hotchocolate.data/13.9.0/build/HotChocolate.Data.props')" />
+    <Import Project="$(NuGetPackageRoot)hotchocolate.aspnetcore/13.9.0/build/HotChocolate.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)hotchocolate.aspnetcore/13.9.0/build/HotChocolate.AspNetCore.props')" />
+  </ImportGroup>
 </Project>
