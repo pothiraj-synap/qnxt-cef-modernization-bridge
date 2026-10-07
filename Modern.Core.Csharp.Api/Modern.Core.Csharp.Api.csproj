@@ -15,9 +15,9 @@
     <!-- GraphQL Data Projection and Performance Mapping Layer -->
     <PackageReference Include="HotChocolate.Data" Version="13.9.0" />
     <!-- Ultra-fast Micro-ORM for Senior Data Access -->
-    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Dapper" Version="2.1.89" />
     <!-- Microsoft SQL Server Native Data Client Driver -->
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
   </ItemGroup>
 
   <ItemGroup>

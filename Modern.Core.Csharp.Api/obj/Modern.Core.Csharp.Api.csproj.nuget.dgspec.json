@@ -123,7 +123,7 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[2.1.35, )"
+              "version": "[2.1.89, )"
             },
             "HotChocolate.AspNetCore": {
               "target": "Package",
@@ -139,7 +139,7 @@
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.2.1, )"
+              "version": "[7.1.1, )"
             }
           },
           "imports": [
