@@ -37,3 +37,6 @@ app.MapControllers();
 // Map the unified GraphQL endpoint route (Default landing page: /graphql)
 app.MapGraphQL();
 app.Run();
+
+// "QnxtCefConnection": "Server=127.0.0.1,1433;Database=CurrentQnxtCefDB;User Id=sa;Password=YourSecurePassword123!;TrustServerCertificate=True;MultipleActiveResultSets=True;"
+    
