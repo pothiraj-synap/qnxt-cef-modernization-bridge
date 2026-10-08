@@ -92,7 +92,7 @@ export const CefLiveViewer: React.FC = () => {
                     <td style={{ padding: '16px', fontWeight: 'bold', color: '#2563eb' }}>{row.claimId}</td>
                     <td style={{ padding: '16px', color: '#334155' }}>{row.memberId}</td>
                     <td style={{ padding: '16px', color: '#16a34a', fontWeight: 'bold', textAlign: 'right' }}>
-                      \${row.adjustmentAmount.toLocaleString(undefined, { minimumFractionDigits: 2 })}
+                      ${row.adjustmentAmount.toLocaleString(undefined, { minimumFractionDigits: 2 })}
                     </td>
                     <td style={{ padding: '16px', color: '#64748b', fontSize: '14px' }}>{row.processedUtc}</td>
                   </tr>

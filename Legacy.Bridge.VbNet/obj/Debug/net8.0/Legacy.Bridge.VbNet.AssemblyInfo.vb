@@ -15,7 +15,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Legacy.Bridge.VbNet"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45291a8d68cce8069b969d98f2f4f5f6879b3eb1"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+623e175180be9f1cc59292ef8aef84058a5f3c17"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Legacy.Bridge.VbNet"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Legacy.Bridge.VbNet"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 
