@@ -10,11 +10,11 @@
         "projectUniqueName": "/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/Legacy.Bridge.VbNet.vbproj",
         "projectName": "Legacy.Bridge.VbNet",
         "projectPath": "/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/Legacy.Bridge.VbNet.vbproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
+        "packagesPath": "/home/vscode/.nuget/packages/",
         "outputPath": "/workspaces/qnxt-cef-modernization-bridge/Legacy.Bridge.VbNet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/vscode/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -59,11 +59,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.33, 8.0.33]"
+              "version": "[8.0.34, 8.0.34]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.33, 8.0.33]"
+              "version": "[8.0.34, 8.0.34]"
             }
           ],
           "frameworkReferences": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

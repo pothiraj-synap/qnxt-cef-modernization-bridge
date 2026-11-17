@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Modern.Core.Csharp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7a73d6f28e6640f90ff3cc303bb68f70fc0afea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25f16380c3f235613868aa9ce710af03cbaedb89")]
 [assembly: System.Reflection.AssemblyProductAttribute("Modern.Core.Csharp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Modern.Core.Csharp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
