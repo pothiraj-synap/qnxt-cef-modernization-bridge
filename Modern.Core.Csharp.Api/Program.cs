@@ -7,6 +7,17 @@ using Modern.Core.Csharp.Api; // Binds the namespace where CefOutboxProcessor li
 using Modern.Core.Csharp.Api.Data;    // <--- Bound cleanly to Data extensions
 using Modern.Core.Csharp.Api.GraphQL;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontends", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200", "http://localhost:5173", "http://localhost:3000")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
+
 
 // 1. Register Web API Controllers to manage incoming HTTP client requests
 builder.Services.AddControllers();
@@ -21,6 +32,8 @@ builder.Services.AddHostedService<CefOutboxProcessor>();
 builder.Services.AddCefDataInfrastructure();
 builder.Services.AddCefGraphQLInfrastructure();
 var app = builder.Build();
+// After var app = builder.Build();
+app.UseCors("AllowFrontends");
 //will be removed
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())

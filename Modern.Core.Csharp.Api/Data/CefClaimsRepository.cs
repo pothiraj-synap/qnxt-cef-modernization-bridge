@@ -16,7 +16,7 @@ namespace Modern.Core.Csharp.Api.Data
         {
             // Pulls your enterprise PostgreSQL string securely from appsettings configuration map
             _connectionString = configuration.GetConnectionString("QnxtCefConnection") 
-                                ?? "Host=localhost;Database=CurrentQnxtCefDB;Username=postgres;Password=YourSecurePassword123!;";
+                                ?? "Host=localhost;Port=5432;Database=qnxt_cef_modernization;Username=postgres;Password=CefSecurePassword123!;";
         }
 
         public async Task<IEnumerable<CefAdjustmentPayload>> GetHistoricalAdjustmentsAsync(int limit)

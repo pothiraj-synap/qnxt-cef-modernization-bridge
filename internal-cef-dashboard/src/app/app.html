@@ -183,9 +183,12 @@
     }
   }
 </style>
-
+<nav style="padding: 1rem; background: #f8f9fa; border-bottom: 1px solid #dee2e6;">
+  <a routerLink="/members/new" style="margin-right: 1rem;">Enroll Member</a>
+  <a routerLink="/claims/new">Insert Claim</a>
+</nav>
 <main class="main">
-  <div class="content">
+  <!-- <div class="content">
     <div class="left-side">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -329,7 +332,8 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
+<router-outlet />
 </main>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
@@ -341,4 +345,3 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<router-outlet />
