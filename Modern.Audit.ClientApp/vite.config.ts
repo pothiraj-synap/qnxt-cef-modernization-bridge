@@ -11,7 +11,7 @@ export default defineConfig({
     proxy: {
       // Correctly routes client frontend graph updates directly to the C# Web API server
       '/graphql': {
-        target: 'http://localhost:5141',
+       target: 'https://orange-funicular-wq67x77rp6vh5jp-5141.app.github.dev/',//  target: 'http://localhost:5141',
         changeOrigin: true,
         secure: false,
       }

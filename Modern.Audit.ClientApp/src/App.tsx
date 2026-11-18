@@ -1,8 +1,9 @@
-import { CefLiveViewer } from './CefLiveViewer';
+//import { CefLiveViewer } from './CefLiveViewer';
+import { MemberClaimsView } from './components/MemberClaimsView';
 
 function App() {
   return (
-    <CefLiveViewer />
+    <MemberClaimsView />
   );
 }
 

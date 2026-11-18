@@ -76,8 +76,8 @@ export class MemberInsertComponent {
   // Exact match to PostgreSQL chk_member_status
   validMemberStatuses = ['INCOMPLETE', 'ACTIVE', 'INACTIVE'];
 
-  private apiUrl = 'http://localhost:5141/api/members';
-
+  private apiUrl = 'https://orange-funicular-wq67x77rp6vh5jp-5141.app.github.dev/api/members';
+  // private apiUrl = 'http://localhost:5141/api/members'; // For local development
   constructor(private fb: FormBuilder, private http: HttpClient) {
     this.memberForm = this.fb.group({
       memberId: ['', [Validators.required, Validators.maxLength(30)]],
